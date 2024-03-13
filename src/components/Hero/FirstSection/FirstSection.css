@@ -1,0 +1,83 @@
+.side-image  {
+    position: relative;
+}
+
+.side-image img {
+    position: absolute;
+    top: -1rem;
+    width: 10rem;
+    z-index: -1;
+}
+
+.hero-container {
+    margin-top: 7rem;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-container .img-container img {
+    width: 35rem;
+}
+
+.hero-container .el-container {
+    font-family: "Roboto", sans-serif;
+}
+
+.hero-container .el-container h1 {
+    font-size: 2.7rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: #092635;
+}
+
+.hero-container .el-container .para-about {
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #FE9E0D;
+}
+
+.hero-container .el-container .dummy-text-container {
+    margin-top: 2rem;
+}
+
+.hero-container .el-container .dummy-text-container .dummy-text {
+    font-weight: 700;
+    color: #363b3d;;
+    margin-bottom: 0.7rem;
+}
+
+.hero-container .el-container .stage-container {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+
+.hero-container .el-container .stage-container button {
+    width: 7rem;
+    height: 3rem;
+    background-color: #FE9E0D;
+    border: none;
+    border-radius: 2rem;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+}
+
+.hero-container .el-container .stage-container button:hover {
+    background-color: #092635;
+}
+
+.hero-container .el-container .stage-container .play-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.hero-container .el-container .stage-container .play-container img {
+    width: 3rem;
+    cursor: pointer;
+}
